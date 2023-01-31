@@ -37,9 +37,9 @@ namespace insomniaHUDTools
                     {
                         ApplyColors(args[1], args[2], args[3]);
                     }
-                    catch (FileNotFoundException exception)
+                    catch (System.IO.FileNotFoundException exception)
                     {
-
+                        // Do nothing
                     }
                 }
             }
